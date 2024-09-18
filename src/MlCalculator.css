@@ -1,0 +1,37 @@
+.ml-calculator {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 5px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  text-align: center;
+}
+
+.ml-calculator h2 {
+  color: #333;
+}
+
+.ml-calculator input {
+  width: calc(100% - 22px);
+  padding: 10px;
+  margin: 5px 0;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.ml-calculator button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.ml-calculator button:hover {
+  background-color: #0056b3;
+}
+
+.ml-calculator p {
+  color: #333;
+  font-size: 1.2em;
+}

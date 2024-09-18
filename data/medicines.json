@@ -1,0 +1,1261 @@
+[
+  {
+    "id": 1,
+    "name": "Acarbose (Precose)",
+    "dose": {
+      "Kedi": {
+        "Genel Kullanım": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [12.5, 25],
+            "unit": "mg",
+            "time": "Yemekle Birlikte"
+          }
+        }
+      },
+      "Köpek": {
+        "Genel Kullanım": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [12.5, 25],
+            "unit": "mg",
+            "time": "Yemekle Birlikte"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "25 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 25,
+        "unit": "Tablet"
+      },
+      "50 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 50,
+        "unit": "Tablet"
+      },
+      "100 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 100,
+        "unit": "Tablet"
+      }
+    }
+  },
+  {
+    "id": 2,
+    "name": "Acepromazine Maleate (PromAce, Aceproject)",
+    "dose": {
+      "Kedi": {
+        "Genel Kullanım": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [1.1, 2.2],
+            "unit": "mg"
+          },
+          "IV": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [1.1, 2.2],
+            "unit": "mg"
+          },
+          "IM": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [1.1, 2.2],
+            "unit": "mg"
+          },
+          "SC": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [1.1, 2.2],
+            "unit": "mg"
+          }
+        },
+        "Ağrılı Hastada Anksiyeteyi Azaltmak İçin (Analjezi Yerine Geçmez)": {
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.05,
+            "unit": "mg"
+          },
+          "IM": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.05,
+            "unit": "mg"
+          },
+          "SC": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.05,
+            "unit": "mg"
+          }
+        },
+        "Kısıtlama/Sedasyon": {
+          "IV": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.05, 0.1],
+            "unit": "mg"
+          }
+        }
+      },
+      "Köpek": {
+        "Genel Kullanım": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.55, 2.2],
+            "unit": "mg"
+          },
+          "IV": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.55, 1.1],
+            "unit": "mg"
+          },
+          "IM": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.55, 1.1],
+            "unit": "mg"
+          },
+          "SC": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.55, 1.1],
+            "unit": "mg"
+          }
+        },
+        "Kısıtlama/Sedasyon": {
+          "IV": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.025, 0.2],
+            "unit": "mg"
+          }
+        },
+        "Ağrılı Hastada Anksiyeteyi Azaltmak İçin (Analjezi Yerine Geçmez)": {
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.05,
+            "unit": "mg"
+          },
+          "IM": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.05,
+            "unit": "mg"
+          },
+          "SC": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.05,
+            "unit": "mg"
+          }
+        },
+        "Premedikasyon": {
+          "IM": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.03, 0.05],
+            "unit": "mg"
+          },
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [1, 3],
+            "unit": "mg"
+          }
+        },
+        "Morfine İle Birlikte Premedikasyon Olarak: Asepromazin": {
+          "IM": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.05,
+            "unit": "mg"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "10 mg/ml": {
+        "medicineMl": 1,
+        "medicineMg": 10,
+        "unit": "cc"
+      },
+      "5 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 5,
+        "unit": "Tablet"
+      },
+      "10 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 10,
+        "unit": "Tablet"
+      },
+      "25 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 25,
+        "unit": "Tablet"
+      }
+    }
+  },
+  {
+    "id": 3,
+    "name": "Acetaminophen (Acephen, Mapap, Q-Pap, Tylenol)",
+    "dose": {
+      "Köpek": {
+        "Genel Kullanım": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [10, 15],
+            "unit": "mg",
+            "time": "5 Gün q12h"
+          }
+        },
+        "Dejeneratif Miyelopati Tedavisinde": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 5,
+            "unit": "mg",
+            "time": "q8h - q12h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "160 mg/5ml": {
+        "medicineMl": 5,
+        "medicineMg": 160,
+        "unit": "cc"
+      },
+      "120 mg Fitil": {
+        "medicineMl": 1,
+        "medicineMg": 120,
+        "unit": "Fitil"
+      },
+      "325 mg Fitil": {
+        "medicineMl": 1,
+        "medicineMg": 325,
+        "unit": "Fitil"
+      },
+      "650 mg Fitil": {
+        "medicineMl": 1,
+        "medicineMg": 650,
+        "unit": "Fitil"
+      },
+      "325 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 325,
+        "unit": "Tablet"
+      }
+    }
+  },
+  {
+    "id": 4,
+    "name": "Acetazolamide (Diamox)",
+    "dose": {
+      "Kedi": {
+        "Glokom Tedavisi": {
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 50,
+            "unit": "mg",
+            "time": "q24h"
+          },
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 7,
+            "unit": "mg",
+            "time": "q8h"
+          }
+        }
+      },
+      "Köpek": {
+        "Metabolik Alkalozun Ek Tedavisi İçin": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 10,
+            "unit": "mg",
+            "time": "q6h"
+          }
+        },
+        "Glokom Tedavisi": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [50, 75],
+            "unit": "mg",
+            "time": "q8h - q12h"
+          }
+        },
+        "Pediatrik Hastalarda Hidrosefali Ek Tedavisi İçin": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.1,
+            "unit": "mg",
+            "time": "q8h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "125 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 125,
+        "unit": "Tablet"
+      },
+      "250 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 250,
+        "unit": "Tablet"
+      }
+    }
+  },
+  {
+    "id": 5,
+    "name": "Acetohydroxamic Acid (Lithostat)",
+    "dose": {
+      "Köpek": {
+        "Antibiyotikler ve Kalsüloitik Diyetlerle Tedavi Sonrasında Kalıcı Strüvit Ürolitler ve Kalıcı Üreaz Üreten Bakterilerin Ek Tedavisi İçin": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 12.5,
+            "unit": "mg",
+            "time": "q12h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "250 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 250,
+        "unit": "Tablet"
+      }
+    }
+  },
+  {
+    "id": 6,
+    "name": "Acetylcysteine (Acetadote, Mucomyst)",
+    "dose": {
+      "Köpek": {
+        "Asetaminofen Zehirlenmesi": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 140,
+            "unit": "mg"
+          },
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 140,
+            "unit": "mg"
+          }
+        },
+        "Fenol Zehirlenmesi": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 140,
+            "unit": "mg"
+          },
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 140,
+            "unit": "mg"
+          }
+        },
+        "Ksilitol Zehirlenmesine Bağlı Hepatotoksisite": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [140, 280],
+            "unit": "mg"
+          },
+          "IV": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [140, 280],
+            "unit": "mg"
+          }
+        },
+        "Dejeneratif Miyelopati": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 25,
+            "unit": "mg"
+          }
+        }
+      },
+      "Kedi": {
+        "Asetaminofen Zehirlenmesi": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 140,
+            "unit": "mg"
+          }
+        },
+        "Fenol Zehirlenmesi": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 140,
+            "unit": "mg"
+          },
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 140,
+            "unit": "mg"
+          }
+        },
+        "Hepatik Lipidozun Ek Tedavisi İçin": {
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 140,
+            "unit": "mg"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "100 mg/ml (10%)": {
+        "medicineMl": 1,
+        "medicineMg": 100,
+        "unit": "cc"
+      },
+      "200 mg/ml (20%)": {
+        "medicineMl": 1,
+        "medicineMg": 200,
+        "unit": "cc"
+      }
+    }
+  },
+  {
+    "id": 7,
+    "name": "Acitretin (Soriatane)",
+    "dose": {
+      "Köpek": {
+        "Retinoidlerin Faydalı Olabileceği Dermatolojik Durumlar İçin": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.5, 1],
+            "unit": "mg",
+            "time": "q24h"
+          }
+        }
+      },
+      "Kedi": {
+        "Etreti̇nat": {
+          "PO": {
+            "doseType": "fixedDose",
+            "doseValue": 10,
+            "unit": "mg",
+            "time": "q24h"
+          }
+        },
+        "Bowen Hastalığı": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 3,
+            "unit": "mg",
+            "time": "q24h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "10 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 10,
+        "unit": "Tablet"
+      },
+      "17.5 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 17.5,
+        "unit": "Tablet"
+      },
+      "22.5 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 22.5,
+        "unit": "Tablet"
+      },
+      "25 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 25,
+        "unit": "Tablet"
+      }
+    }
+  },
+  {
+    "id": 8,
+    "name": "Acyclovir (Zovirax)",
+    "dose": {
+      "Kedi": {
+        "Herpesvirus-1 Enfeksiyonları": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [10, 25],
+            "unit": "mg",
+            "time": "q12h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "200 mg Kapsul": {
+        "medicineMl": 1,
+        "medicineMg": 200,
+        "unit": "Kapsul"
+      },
+      "200 mg/ 5ml": {
+        "medicineMl": 5,
+        "medicineMg": 200,
+        "unit": "cc"
+      },
+      "400 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 400,
+        "unit": "Tablet"
+      },
+      "800 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 800,
+        "unit": "Tablet"
+      },
+      "500 mg Şişe": {
+        "medicineMl": 10,
+        "medicineMg": 500,
+        "unit": "cc"
+      },
+      "1000 mg Şişe": {
+        "medicineMl": 20,
+        "medicineMg": 1000,
+        "unit": "cc"
+      }
+    }
+  },
+  {
+    "id": 9,
+    "name": "Aglepristone (Alizine or Alzin)",
+    "dose": {
+      "Köpek": {
+        "Hamileliği Sonlandırmak İçin": {
+          "SC": {
+            "doseType": "dosePerKg",
+            "doseValue": 10,
+            "unit": "mg",
+            "time": "q24h"
+          }
+        },
+        "Doğumu Başlatmak İçin": {
+          "SC": {
+            "doseType": "dosePerKg",
+            "doseValue": 15,
+            "unit": "mg",
+            "time": "q24h"
+          }
+        },
+        "Pyometra/Metrit Tedavisine Ek Olarak": {
+          "SC": {
+            "doseType": "dosePerKg",
+            "doseValue": 10,
+            "unit": "mg",
+            "time": "1, 2, 8, 15, 29. Günlerde"
+          }
+        }
+      },
+      "Kedi": {
+        "Mamar Yüksek Fibroadenomatöz Hiperplaziyi Tedavi Etmek": {
+          "SC": {
+            "doseType": "dosePerKg",
+            "doseValue": 10,
+            "unit": "mg",
+            "time": "Haftada 1"
+          }
+        },
+        "Hamileliği Sonlandırmak İçin": {
+          "SC": {
+            "doseType": "dosePerKg",
+            "doseValue": 15,
+            "unit": "mg",
+            "time": "q24h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "30mg/ml Enjeksiyon": {
+        "medicineMl": 1,
+        "medicineMg": 30,
+        "unit": "cc"
+      }
+    }
+  },
+  {
+    "id": 10,
+    "name": "Albendazole (Valbazen)",
+    "dose": {
+      "Köpek": {
+        "Filaroides Hirthi Enfeksiyonları": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 25,
+            "unit": "mg",
+            "time": "5 Gün q12h"
+          }
+        },
+        "Filaroides Osleri": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 25,
+            "unit": "mg",
+            "time": "5 Gün q12h"
+          }
+        },
+        "Capillaria plica": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 50,
+            "unit": "mg",
+            "time": "10–14 Gün q12h"
+          }
+        },
+        "Paragonimus Kellicotti": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 25,
+            "unit": "mg",
+            "time": "14 Gün q12h"
+          }
+        },
+        "Giardia": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 25,
+            "unit": "mg",
+            "time": "2–5 Gün q12h"
+          }
+        },
+        "Leishmaniasis": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 10,
+            "unit": "mg",
+            "time": "30 Gün q24h"
+          }
+        }
+      },
+      "Kedi": {
+        "Paragonimus Kellicotti": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 25,
+            "unit": "mg",
+            "time": "14 gün q12h"
+          }
+        },
+        "Giardia": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 25,
+            "unit": "mg",
+            "time": "3-5 Gün q12h"
+          }
+        },
+        "Karaciğer Kısaçlarının Tedavisi": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 50,
+            "unit": "mg",
+            "time": "q24h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "113.6mg/ml Enjeksiyon": {
+        "medicineMl": 1,
+        "medicineMg": 113.6,
+        "unit": "cc"
+      },
+      "45.5mg/ml Enjeksiyon": {
+        "medicineMl": 1,
+        "medicineMg": 45.5,
+        "unit": "cc"
+      },
+      "300mg/ml Merhem": {
+        "medicineMl": 1,
+        "medicineMg": 300,
+        "unit": "cc"
+      }
+    }
+  },
+  {
+    "id": 11,
+    "name": "Albuterol Sulfate (Proventil, Ventolin, Torpex ,Salbutamol)",
+    "dose": {
+      "Köpek": {
+        "Genel Kullanım": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.02, 0.05],
+            "unit": "mg",
+            "time": "q6-8h"
+          }
+        }
+      },
+      "Kedi": {
+        "Genel Kullanım": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.02, 0.05],
+            "unit": "mg",
+            "time": "q6-8h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "2mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 2,
+        "unit": "Tablet"
+      },
+      "4mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 4,
+        "unit": "Tablet"
+      },
+      "2mg/5ml Şurup": {
+        "medicineMl": 5,
+        "medicineMg": 2,
+        "unit": "cc"
+      },
+      "0.83mg/ml": {
+        "medicineMl": 5,
+        "medicineMg": 2,
+        "unit": "cc"
+      },
+      "5mg/ml": {
+        "medicineMl": 5,
+        "medicineMg": 2,
+        "unit": "cc"
+      }
+    }
+  },
+  {
+    "id": 12,
+    "name": "Alendronate Sodium (Fosamax, Generic)",
+    "dose": {
+      "Köpek": {
+        "Tedaviye Dirençli Hiperkalsemi İçin": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.5, 1],
+            "unit": "mg",
+            "time": "q24h"
+          }
+        },
+        "Histiositik Sarkom Kompleksinin Araştırma Tedavisi İçin": {
+          "PO": {
+            "doseType": "fixedDose",
+            "doseValue": 70,
+            "unit": "mg/m2",
+            "time": "14 Gün q24h"
+          }
+        }
+      },
+      "Kedi": {
+        "Kedi Odontoklastik Rezorptif Lezyonlar": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 3,
+            "unit": "mg",
+            "time": "q12h"
+          }
+        },
+        "İdiopatik Hiperkalsemi İçin": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 2,
+            "unit": "mg",
+            "time": "Haftada 1"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "5mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 5,
+        "unit": "Tablet"
+      },
+      "10mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 10,
+        "unit": "Tablet"
+      },
+      "35mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 35,
+        "unit": "Tablet"
+      },
+      "40mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 40,
+        "unit": "Tablet"
+      },
+      "70mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 70,
+        "unit": "Tablet"
+      }
+    }
+  },
+  {
+    "id": 13,
+    "name": "Alfaxalone (Alfaxan)",
+    "dose": {
+      "Köpek": {
+        "Premedike Edilmiş": {
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 3,
+            "unit": "mg"
+          }
+        },
+        "Premedikasyon Yapılmamış": {
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 2,
+            "unit": "mg"
+          }
+        }
+      },
+      "Kedi": {
+        "Premedikasyon Yapılmış veya Yapılmamış": {
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 5,
+            "unit": "mg"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "10mg/ml": {
+        "medicineMl": 1,
+        "medicineMg": 10,
+        "unit": "cc"
+      }
+    }
+  },
+  {
+    "id": 14,
+    "name": "Alfentanil HCl (Alfenta®)",
+    "dose": {
+      "Köpek": {
+        "Premedikasyon Olarak": {
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.005,
+            "unit": "mg"
+          }
+        },
+        "Ağrı İçin Sürekli Hızda İnfüzyon Olarak": {
+          "IV": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.00005, 0.0001],
+            "unit": "mg"
+          }
+        },
+        "Anesteziye Analjezik Takviye Olarak": {
+          "IV": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.002, 0.005],
+            "unit": "mg"
+          }
+        }
+      }
+    }
+  },
+  {
+    "id": 15,
+    "name": "Allopurinol (Lopurin, Zyloprim, and Allopur)",
+    "dose": {
+      "Köpek": {
+        "Ürat Ürolitlerinin Çözünmesi İçin": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 15,
+            "unit": "mg",
+            "time": "q12h"
+          }
+        },
+        "Ürat Ürolitlerinin Önlenmesi": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 10,
+            "unit": "mg",
+            "time": "q24h"
+          }
+        },
+        "Ürat Ürolitleri, Leishmaniasis Tedavisi İçin": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 10,
+            "unit": "mg",
+            "time": "4-8 Hafta q24h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "100 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 100,
+        "unit": "Tablet"
+      },
+      "300 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 300,
+        "unit": "Tablet"
+      }
+    }
+  },
+  {
+    "id": 16,
+    "name": "Alprazolam (Xanax ,Niravam)",
+    "dose": {
+      "Köpek": {
+        "Köpek Anksiyete Bozukluklarının Tedavisi İçin": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.01, 0.1],
+            "unit": "mg",
+            "time": "q24h"
+          }
+        },
+        "Ayrılma Anksiyetesi İçin": {
+          "PO": {
+            "doseType": "dosePerUnit",
+            "doseValue": [0.25, 2],
+            "unit": "mg",
+            "time": "q24h"
+          }
+        },
+        "Fırtına Korkuları İçin": {
+          "PO": {
+            "doseType": "dosePerUnit",
+            "doseValue": [0.02, 4],
+            "unit": "mg",
+            "time": "q4h"
+          }
+        },
+        "Fobiler ve Gece Uyanmaları İçin": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.01, 0.1],
+            "unit": "mg",
+            "time": "q6–12h"
+          }
+        },
+        "Akut Anksiyete İçin": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.05, 0.1],
+            "unit": "mg",
+            "time": "prn - q8h"
+          }
+        }
+      },
+      "Kedi": {
+        "Anksiyete Bozukluklarının Tedavisi İçin": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.125, 0.25],
+            "unit": "mg",
+            "time": "q12h"
+          }
+        },
+        "Tedaviye Dirençli Ev Kirletme İçin": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.125, 0.25],
+            "unit": "mg",
+            "time": "q8-12h"
+          }
+        },
+        "İdrar İşaretleme İçin": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.05, 0.2],
+            "unit": "mg",
+            "time": "q12-24h"
+          }
+        },
+        "Korkular/Fobiler/Anksiyeteler İçin": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [0.125, 0.25],
+            "unit": "mg",
+            "time": "q8-24h"
+          }
+        },
+        "Akut Anksiyete İçin": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.05,
+            "unit": "mg",
+            "time": "prn - q8h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "0.25 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 0.25,
+        "unit": "Tablet"
+      },
+      "0.5 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 0.5,
+        "unit": "Tablet"
+      },
+      "1 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 1,
+        "unit": "Tablet"
+      },
+      "2 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 2,
+        "unit": "Tablet"
+      }
+    }
+  },
+  {
+    "id": 17,
+    "name": "Altrenogest (Regu-Mate, Matrix)",
+    "dose": {
+      "Köpek": {
+        "Luteal Yetersizlik İçin": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.044,
+            "unit": "mL",
+            "time": "q24h"
+          }
+        },
+        "Luteal Yetersizlik ve Erken Doğum İçin": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.022,
+            "unit": "mL",
+            "time": "q24h"
+          }
+        },
+        "Tocolitikler (örneğin, terbutalin) Myometrial Kontraktibiliteyi Kontrol Etmediğinde Gebeliği Sürdürmek İçin": {
+          "PO": {
+            "doseType": "dosePerKg",
+            "doseValue": 0.088,
+            "unit": "mg",
+            "time": "q24h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "2.2mg/ml": {
+        "medicineMl": 1,
+        "medicineMg": 2.2,
+        "unit": "cc"
+      }
+    }
+  },
+  {
+    "id": 18,
+    "name": "Aluminum Hydroxide (Amphojel, AlternaGEL)",
+    "dose": {
+      "Köpek": {
+        "Hiperfosfatemi": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [30, 100],
+            "unit": "mg",
+            "time": "Yemekle Birlikte"
+          }
+        },
+        "Mide Ülserleri İçin Ek Tedavi Olarak": {
+          "PO": {
+            "doseType": "fixedDose",
+            "doseValue": 0.5,
+            "unit": "Tablets",
+            "time": "q6h"
+          }
+        }
+      },
+      "Kedi": {
+        "Hiperfosfatemi": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [15, 45],
+            "unit": "mg",
+            "time": "q24h"
+          }
+        },
+        "Antiasit Olarak": {
+          "PO": {
+            "doseType": "fixedDose",
+            "doseValue": 0.25,
+            "unit": "Tablets",
+            "time": "q6h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "500 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 500,
+        "unit": "Tablet"
+      },
+      "600 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 600,
+        "unit": "Tablet"
+      },
+      "320mg/5ml": {
+        "medicineMl": 5,
+        "medicineMg": 320,
+        "unit": "cc"
+      },
+      "450mg/5ml": {
+        "medicineMl": 5,
+        "medicineMg": 450,
+        "unit": "cc"
+      },
+      "600mg/5ml": {
+        "medicineMl": 5,
+        "medicineMg": 600,
+        "unit": "cc"
+      },
+      "675mg/5ml": {
+        "medicineMl": 5,
+        "medicineMg": 675,
+        "unit": "cc"
+      }
+    }
+  },
+  {
+    "id": 19,
+    "name": "Amantadine HCl (Symmetrel®)",
+    "dose": {
+      "Köpek": {
+        "Kronik Ağrı İçin Ek Tedavi Olarak": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [3, 5],
+            "unit": "mg",
+            "time": "q24h"
+          }
+        }
+      },
+      "Kedi": {
+        "Kronik Ağrı İçin Ek Tedavi Olarak": {
+          "PO": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [3, 5],
+            "unit": "mg",
+            "time": "q24h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "100 mg Tablet": {
+        "medicineMl": 1,
+        "medicineMg": 100,
+        "unit": "Tablet"
+      },
+      "10mg/ml Şurup": {
+        "medicineMl": 1,
+        "medicineMg": 10,
+        "unit": "cc"
+      }
+    }
+  },
+  {
+    "id": 20,
+    "name": "Amikacin Sulfate (Amikin®, Amiglyde-V®)",
+    "dose": {
+      "Köpek": {
+        "Duyarlı Enfeksiyonlar İçin": {
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 15,
+            "unit": "mg",
+            "time": "q24h"
+          },
+          "SC": {
+            "doseType": "dosePerKg",
+            "doseValue": 20,
+            "unit": "mg",
+            "time": "q24h"
+          },
+          "IM": {
+            "doseType": "dosePerKg",
+            "doseValue": 20,
+            "unit": "mg",
+            "time": "q24h"
+          }
+        },
+        "Sepsis": {
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 20,
+            "unit": "mg",
+            "time": "q24h"
+          }
+        },
+        "Ampirik Tedavi İçin": {
+          "IV": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [15, 30],
+            "unit": "mg"
+          },
+          "SC": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [15, 30],
+            "unit": "mg"
+          },
+          "IM": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [15, 30],
+            "unit": "mg"
+          }
+        }
+      },
+      "Kedi": {
+        "Duyarlı Enfeksiyonlar İçin": {
+          "IV": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [10, 15],
+            "unit": "mg"
+          },
+          "SC": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [10, 15],
+            "unit": "mg"
+          },
+          "IM": {
+            "doseType": "dosePerKgRange",
+            "doseValue": [10, 15],
+            "unit": "mg"
+          }
+        },
+        "Sepsis": {
+          "IV": {
+            "doseType": "dosePerKg",
+            "doseValue": 20,
+            "unit": "mg",
+            "time": "q24h"
+          }
+        }
+      }
+    },
+    "concentrations": {
+      "50mg/ml": {
+        "medicineMl": 1,
+        "medicineMg": 50,
+        "unit": "Tablet"
+      },
+      "250mg/ml": {
+        "medicineMl": 1,
+        "medicineMg": 250,
+        "unit": "cc"
+      }
+    }
+  }
+]

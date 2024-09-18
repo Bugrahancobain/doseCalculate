@@ -1,0 +1,158 @@
+/* Generally stil */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #f8f9fa;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.App {
+  width: 90%;
+  max-width: 600px;
+  padding: 20px;
+  background-color: #ffffff;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+}
+
+/* Banner */
+header {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+header h1 {
+  color: #333;
+  font-size: 2em;
+}
+
+/* Search Bar */
+input[type="text"] {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+/* Medicine List */
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  margin: 10px 0;
+}
+
+/* Button */
+button {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  transition: background-color 0.3s;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+button:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.25);
+}
+
+/* Accordion */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.5s ease-out;
+  text-align: center;
+}
+
+.accordion-content.open {
+  max-height: 500px; /* İçeriğin maksimum yüksekliğini ayarlayın */
+}
+
+/* Input ve Select */
+input[type="radio"] {
+  margin: 0 10px 0 0;
+}
+
+label {
+  margin-right: 20px;
+}
+
+input[type="number"],
+input[type="text"],
+select {
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px 0;
+  border: 2px solid #007bff;
+  border-radius: 5px;
+  box-sizing: border-box;
+}
+
+p {
+  margin: 10px 0;
+  font-size: 1.1em;
+  color: #333;
+}
+
+.medicineList {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.searchBar {
+  text-align: center;
+  margin: 0px auto;
+}
+
+.searchBarİnput {
+  text-align: center;
+}
+
+.error-input {
+  border: 1px solid red;
+  color: red;
+}
+
+.error-input::placeholder {
+  color: red;
+}
+
+.pagesButton {
+  text-align: center;
+}
+.suggestions {
+  max-height: 120px;
+  overflow: scroll;
+  margin: 20px 0;
+  scrollbar-color: lightGrey white;
+  scrollbar-width: thin;
+}
+
+.suggestionItem {
+  background-color: #045525;
+  border-radius: 10px;
+  color: white;
+  width: calc(100% - 20px);
+  padding: 10px;
+  margin: 10px auto;
+  box-sizing: border-box;
+  cursor: pointer;
+}
