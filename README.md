@@ -1,4 +1,4 @@
-# doseCalculate
+# dosecalculate.me
 Veterinary Drug Dosage Calculation System
 
 This project is developed to help veterinarians easily calculate drug dosages for cats and dogs. Dosages are automatically calculated based on the animal species, weight, and the concentration of the medications.
