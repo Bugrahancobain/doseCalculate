@@ -1,7 +1,5 @@
 #Project Name: Veterinary Drug Dosage Calculation System dosecalculate.me
 
-Let's break down the **doseCalculate** project and provide a thorough, detailed explanation in English. I'll go through the technologies, libraries, components, and functionality used, along with code examples, so everything becomes crystal clear.
-
 ### Project Overview
 
 The **doseCalculate** project is designed to calculate the dosage of a medicine based on the weight of the user or animal. It likely focuses on veterinary medicine or medical purposes where dosages are determined by weight, with the ability to handle both fixed doses and weight-based doses.
